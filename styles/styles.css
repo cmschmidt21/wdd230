@@ -10,10 +10,11 @@
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     margin-bottom: 30px;
+    height: 120px;
   }
   
   header img {
-    float: right;
+    float: left;
     border-radius: 5px;
     max-width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -22,6 +23,8 @@
   header h1 {
     text-align: center;
     color: white;
+    font-size: 3em;
+    
   }
   
   main {
