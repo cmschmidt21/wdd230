@@ -6,11 +6,11 @@
   }
   
   header {
+    display: flex;
+    flex-direction: row;
     background-color: pink;
-    padding: 10px 10px 10px 10px;
     border-radius: 10px;
-    margin-bottom: 30px;
-    height: 120px;
+    height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
@@ -18,14 +18,17 @@
   header img {
     float: left;
     border-radius: 5px;
-    max-width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
   }
   
   header h1 {
-    text-align: center;
+    display: flex;
+    flex-direction:row;
     color: black;
     font-size: 3em;
+    text-align: center;
+    margin-left: 100px;
     
   }
   
@@ -43,6 +46,8 @@
   
   main ul {
     margin-top: 8px;
+    padding: 15px 20px;
+    border-bottom: 2px solid #c2c2c2;
   }
   
   footer {
@@ -54,12 +59,13 @@
 
   }
   
+ 
   footer p {
     text-align: center;
     color: black;
   }
   
-  footer .lastUpdated {
+  footer .last-updated {
     font-size: 0.9em;
     margin-top: -8px;
   }
