@@ -1,24 +1,12 @@
 @media only screen and (min-width: 600px) {
 
-
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	main section:nth-child(2) {
-		display: grid;
+		display:grid !important;
+		grid-template-columns:1fr 1fr;
+		grid-column-gap: 15px;
 	}
 
 	main section:nth-child(3) {
 		grid-column: span 2;
 	}
-
-	main section picture {
-		display: grid;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	} */
 }
