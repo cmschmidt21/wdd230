@@ -1,7 +1,5 @@
 
   html {
-    max-width:1000px;
-    margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
   }
   
@@ -10,7 +8,6 @@
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     margin-bottom: 30px;
-    height: 170px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
@@ -20,6 +17,7 @@
     text-align: center;
     color: black;
     font-size: 3em;
+    margin:0px;
     
   }
 
@@ -34,6 +32,9 @@
     font-size: 20px;
     padding: 1em;
     background-color: gray;
+    margin-top: 0px;
+    border-radius: 10px;
+
   }
 
   main h4 {
@@ -43,16 +44,15 @@
   
   main {
     display: grid;
-    margin-left: 10px;
     margin-bottom: 10px;
     width:auto;
 
   }
   
   section {
-    
+    margin-bottom:15px;
     background-color: aliceblue;
-    
+
   }
   section p {
     text-align: justify;
@@ -61,7 +61,6 @@
 
 .column1 {
     display: grid;
-    width: 350px;
     grid-template-columns: repeat(1, 1fr);
     
 
@@ -69,21 +68,19 @@
 
   .column2 {
     display: grid;
-    width: 350px;
     grid-template-columns: repeat(1, 2fr);
-    
-    
+     
   }
 
   .column3 {
     display: grid;
-    width: 350px;
   }
  
   img {
-    width: 300px;
+    width: 100%;
     height: auto;
     padding: 1em 1em 1em 1em;
+    box-sizing: border-box;
   }
   
   
