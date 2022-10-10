@@ -30,19 +30,53 @@
     background: 
   }
 
-  .navbar {
+  nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-    
-  .navlinks{
-    display: flex;
-    
-    
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.1em;
   }
 
- 
+  .heading {
+    color: #861657;
+    background-color: #ffa69e;
+
+  }
+  .main-background {
+    color: #AA4465;
+    background-color: #DDFFF7;
+  }
+  .navigation {
+    color: #DDFFF7;
+    background-color: #93E1D8;
+  }
+  .navigation-hover {
+    color:#861657;
+    background-color: #93E1D8;
+  }
+  .heading-text {
+    font-family: impact;
+    background-color: white;
+    font-size: 3em;
+  }
+.paragraph-text {
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 1em;
+}
+.footer-text {
+    font-family: Trebuchet Ms;
+    font-size: 0.75em;
+}
+.nav-text {
+  font-family: 'Ubuntu' sans-serif;
+  font-size: 2em;
+  
+}
+.title-text {
+  font-family: impact;
+  font-size: 4em;
+}
+  
   main {
     margin-bottom: 10px;
     width: auto;
@@ -61,6 +95,7 @@
     padding: 1em;
     text-align: center;
     font-size: 30px;
+    color: #3D2F33;
   }
 
  
