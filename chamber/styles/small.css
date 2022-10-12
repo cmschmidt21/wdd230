@@ -6,6 +6,7 @@
   header {
     color: #861657;
     background-color: #ffa69e;
+    font-family: impact;
     padding: 10px 10px 10px 10px;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -18,7 +19,7 @@
   }
   
   * {
-    font-family: "Raleway";
+    font-family: "Ubuntu" sans-serif;
     box-sizing: border-box;
   }
   
@@ -28,6 +29,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #93E1D8;
+    font-size: 2em;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
     height: 50px;
@@ -140,7 +142,7 @@
 
   header h1 {
     text-align: center;
-    color: black;
+    color: #861657;
     font-size: 3em;
     margin:0px;
     
@@ -152,8 +154,10 @@
     font-size: 2em;
   }
 
+
   main h3 {
     text-align: center;
+    font-family: impact;
     font-size: 20px;
     padding: 1em;
     background-color: gray;
@@ -166,23 +170,45 @@
   
   section {
     margin-bottom:15px;
-    background-color: aliceblue;
+    color: #AA4465;
+    background-color: #DDFFF7;
 
+  }
+
+  h3 {
+    font-family: impact;
+    font-size: 2em;
+    justify-content: center;
   }
   section p {
     text-align: justify;
     padding:  0em 1em;
   }
-
-.column1 {
+  .column1 {
     display: grid;
-    span:2;
-    
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .column2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .column3 {
+    display: grid;
+  }
+  .column4 {
+    display: grid;
+  }
+  .column5 {
+    display: grid;
+  }
+  .column6 {
+    display: grid;
+  }
+ 
 
-}
  
   img {
-    width: 100%;
+    max-width: 150px;
     height: auto;
     padding: 1em 1em 1em 1em;
     box-sizing: border-box;
@@ -192,7 +218,7 @@
   }
   
   footer {
-    background-color: pink;
+    background-color: #ffa69e;
     margin-top: 30px;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;

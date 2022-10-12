@@ -8,7 +8,6 @@
         document.getElementById("primNav").classList.toggle("hide")
     }
     }
-    
 function toggleMenu() {
     var temp = document.getElementsByClassName("toggler")[0]
     temp.classList.toggle("hide")
