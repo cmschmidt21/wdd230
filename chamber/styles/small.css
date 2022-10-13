@@ -140,6 +140,14 @@
     }
   }
 
+  .date,aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+  color: black;
+	padding: 0.75rem;
+	background-color: white;
+}
+
   header h1 {
     text-align: center;
     color: #861657;
@@ -221,7 +229,6 @@
     background-color: #ffa69e;
     margin-top: 30px;
     padding: 10px 10px 10px 10px;
-    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
   }

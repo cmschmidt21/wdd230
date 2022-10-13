@@ -18,3 +18,9 @@ function toggleMenu() {
         document.querySelector(".toggler > a").innerHTML = "&#10006; Close"
     }
 }
+
+const datefieldUK = document.querySelector("aside");
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
