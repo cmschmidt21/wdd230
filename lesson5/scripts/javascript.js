@@ -3,11 +3,10 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 button.addEventListener('click', function() {
-    IF (input.value.length === 0) {
-        alert("Type the Name of a Chapter");
-    }
-        ELSE {
-        let userInput = input.value;
+    IF (input.value.length === 0) 
+        {print("Type the Name of a Chapter");} 
+        ELSE 
+        {let userInput = input.value;
 
         const chapterTitle = document.createElement("li");
         const chapterText = document.createElement("span");
