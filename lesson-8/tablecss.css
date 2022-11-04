@@ -29,12 +29,12 @@ th, td {
 
 th {
 	background-color: lightcyan;
-  font-family: impact;
+  font-family: monospace;
 }
 
 td {
 	text-align: center;
-  font-family: impact;
+  font-family: monospace;
 }
 
 tbody tr:nth-child(even) {
