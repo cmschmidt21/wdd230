@@ -1,0 +1,241 @@
+
+  html {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  header {
+    color: #861657;
+    background-color: #ffa69e;
+    font-family: impact;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  h2 {
+    vertical-align: center;
+    text-align: center;
+  }
+  
+  * {
+    font-family: "Ubuntu" sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  
+
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: var(--para-font);
+}
+
+.navigation li {
+    display: block;
+}
+
+.navigation li:first-child {
+  display: block;
+  
+}
+
+ul {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    width: 70%;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: none;
+}
+
+ul li:first-child {
+  display: block;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.navigation a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: var(--nav-primary-font);
+    font-weight: 700;
+    transition: 0.5s;
+    background-color: var(--nav-primary-background);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.ham {
+    width: 40px;
+}
+
+
+.navigation a:hover {
+    color: var(--nav-secondary-font);
+    background-color: var(--nav-secondary-background);
+}
+
+.responsive li {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.pi {
+  font-size: 1.4rem;
+}
+.chamber {
+  font-size: 1rem;
+}
+
+.navigation li .currentpage {
+    background-color: var(--current-page-background);
+    color: var(--current-page-font);
+    transform: none;
+}
+
+.twitter {
+    display: flex;
+    grid-column: 3;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.navigation .socialnav {
+    padding: 0;
+}
+
+.icons {
+    border-radius: 5px;
+    margin: 0px;
+    width: 3rem;
+}
+.ham {
+  font-size: 2em;
+}
+
+  .date,aside {
+	margin: 0.5rem;
+  color: #861657;
+	padding: 0.75rem;
+  width: 100%;
+  text-align: center;
+}
+
+  header h1 {
+    color: #861657;
+    font-size: 30px;
+    margin:0px; 
+    
+  }
+  .title {
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+    align-items: center;
+  }
+  
+
+  main h3 {
+    font-family: impact;
+    font-size: 15px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  
+  section {
+    margin-bottom:15px;
+    color: #AA4465;
+    background-color: #DDFFF7;
+    
+
+  }
+
+  h3 {
+    font-family: impact;
+    font-size: 2em;
+    justify-content: center;
+  }
+  section p {
+    text-align: justify;
+    padding:  0em 1em;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container section {
+		height: 200px;	
+
+	}
+  
+  .join {
+    display: none;
+  }
+  .spotlight3 {
+    display: none;
+  }
+
+ 
+  .image-top {
+    grid-row: 1;
+    width: 90%;
+  }
+
+  .image-bottom {
+    width: 100%;
+    margin: auto;
+
+  }
+  .imagetitle {
+    margin: auto;
+    width: 50%;
+  }
+   
+  
+  body {
+    padding: 2em;
+  }
+  
+  footer {
+    background-color: #ffa69e;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .main-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+
+  }
+  footer p {
+    color: black;
+  }
+  .contact p {
+  }
+  
+  footer .lastUpdated {
+    font-size: 0.9em;
+    margin: 10px;
+  }
+
+
