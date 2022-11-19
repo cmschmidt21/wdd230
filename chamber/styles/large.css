@@ -30,6 +30,10 @@
 		grid-row: 2/2;
 		grid-column: 1/2;
 	}
+	.join {
+		grid-row:3/4;
+		grid-column: 1/2;
+	}
 	.news {
 		grid-row: 3/4;
 		grid-column: 2/4;
@@ -54,17 +58,7 @@
 		flex-direction: row;
 		margin-left: 180px;
 	}
-	.pifooter {
-		font-size: 2em;
-		font-family: impact;
-		margin-left: 10px;
-	  }
-	  .chamberfooter {
-		font-size: 1.3em;
-		font-family: impact;
-		margin-left: 10px;
 	
-	  }
 	  .image-bottom {
 		width: 30%;
 		grid-row: 1/3;

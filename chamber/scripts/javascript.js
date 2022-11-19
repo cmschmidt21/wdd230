@@ -9,14 +9,13 @@ let date = new Date();
     }
 
 const datefield = document.querySelector(".date");
-const datefieldUK = document.querySelector("aside");
 const now = new Date();
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
 console.log(fulldateUK);
-datefieldUK.innerHTML = 
+datefield.innerHTML = 
 `<em>${fulldateUK}</em>`;
 
 

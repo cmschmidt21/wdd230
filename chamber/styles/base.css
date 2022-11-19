@@ -4,7 +4,6 @@
   }
   
   header {
-    color: #861657;
     background-color: #ffa69e;
     font-family: impact;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,7 +27,7 @@
 .navigation {
     list-style: none;
     padding: 0;
-    font-family: var(--para-font);
+    font-family: "Ubuntu";
 }
 
 .navigation li {
@@ -43,7 +42,7 @@
 ul {
     display: flex;
     flex-direction:column;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
@@ -55,6 +54,13 @@ ul {
 ul li {
     list-style: none;
     display: none;
+    background-color: #93E1D8;  
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: "Ubuntu";
+}
+ul li:nth-child(7){
+  background-color: transparent;
 }
 
 ul li:first-child {
@@ -63,6 +69,7 @@ ul li:first-child {
 
 ul li a {
   text-decoration: none;
+  color: #DDFFF7;
 }
 
 .navigation a {
@@ -71,10 +78,8 @@ ul li a {
     flex-direction: row;
     padding: 0.75rem;
     text-decoration: none;
-    color: var(--nav-primary-font);
     font-weight: 700;
     transition: 0.5s;
-    background-color: var(--nav-primary-background);
     border-radius: 5px;
     justify-content: center;
 }
@@ -98,9 +103,11 @@ ul li a {
 
 .pi {
   font-size: 1.4rem;
+  padding: 0.5rem 0 0 0.5rem;
 }
 .chamber {
-  font-size: 1rem;
+  font-size: 0.95rem;
+  padding: 0.5rem 0 0 0.5rem;
 }
 
 .navigation li .currentpage {
@@ -129,10 +136,10 @@ ul li a {
   font-size: 2em;
 }
 
-  .date,aside {
-	margin: 0.5rem;
+  .date {
+	margin: 1rem 0;
   color: #861657;
-	padding: 0.75rem;
+	padding: 0.75rem 0;
   width: 100%;
   text-align: center;
 }
@@ -197,12 +204,21 @@ ul li a {
  
   .image-top {
     grid-row: 1;
-    width: 90%;
+    width: 100%;
+    border-radius: 120px;
+    background-color: #DDFFF7;
+    border: 2px solid  #93E1D8;
+    filter: drop-shadow(0px 10px 10px rgba(0 0 0 / 30%))
+
   }
 
   .image-bottom {
-    width: 100%;
+    width: 80%;
     margin: auto;
+    background-color: #DDFFF7;
+    border-radius: 130px;
+    border: 2px solid #93E1D8;
+    filter: drop-shadow(0px 10px 10px rgba(0 0 0 / 30%))
 
   }
   .imagetitle {
@@ -217,6 +233,7 @@ ul li a {
   
   footer {
     background-color: #ffa69e;
+    display: grid;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -230,12 +247,30 @@ ul li a {
   footer p {
     color: black;
   }
-  .contact p {
+
+  .address {
+    margin: 1rem;
+    text-align: left;
+  }
+  footer h2 {
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    color: #861657;
   }
   
   footer .lastUpdated {
     font-size: 0.9em;
     margin: 10px;
   }
-
+  footer h1 {
+    color: #861657;
+    font-size: 1.5rem;
+    margin:0px; 
+    font-family: Impact;
+    
+  }
+  .base-footer {
+    padding: 20px 10px;
+  
+  }
 
