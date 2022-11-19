@@ -159,7 +159,7 @@ ul li a {
 
   main h3 {
     font-family: impact;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
     margin: auto;
   }
@@ -172,12 +172,8 @@ ul li a {
     
 
   }
+  
 
-  h3 {
-    font-family: impact;
-    font-size: 2em;
-    justify-content: center;
-  }
   section p {
     text-align: justify;
     padding:  0em 1em;
