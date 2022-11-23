@@ -10,10 +10,7 @@
 
   }
   @import url(https://fonts.googleapis.com/css?family=Raleway);
-  h2 {
-    vertical-align: center;
-    text-align: center;
-  }
+  
   
   * {
     font-family: "Ubuntu" sans-serif;
@@ -82,6 +79,23 @@ ul li a {
     transition: 0.5s;
     border-radius: 5px;
     justify-content: center;
+}
+
+.hero button {
+  background-color:  #93E1D8;
+  color: #861657;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  bottom: -300px;
+  left: 350px;
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
 .ham {
@@ -158,17 +172,27 @@ ul li a {
   
 
   main h3 {
-    font-family: impact;
+    font-family: "Ubuntu";
     font-size: 20px;
     padding: 10px;
+    text-align: center;
     margin: auto;
+  }
+  main h4 {
+    text-align: center;
+  }
+
+  main h2 {
+    font-family: "Ubuntu";
+    padding: 10px;
   }
 
   
-  section {
+  section{
     margin-bottom:15px;
     color: #AA4465;
     background-color: #DDFFF7;
+    
     
 
   }
@@ -186,7 +210,9 @@ ul li a {
   }
 
   .grid-container section {
-		height: 200px;	
+		height: 200px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
 	}
   
