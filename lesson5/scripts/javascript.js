@@ -2,29 +2,24 @@ const list = document.querySelector("ul");
 const input = document.querySelector("input");
 const button = document.querySelector("button");
 
-button.addEventListener('click', function() {
-    IF (input.value.length === 0) 
-        {print("Type the Name of a Chapter");} 
-        ELSE 
-        {let userInput = input.value;
-
-        const chapterTitle = document.createElement("li");
-        const chapterText = document.createElement("span");
-        const listButton = document.createElement("button");
-
-        chapterTitle.appendChild(chapterText);
-        chapterText.textContent = userInput;
-        chapterTitle.appendChild(listButton);
-        listButton.textContent = "❤";
-        list.appendChild(chapterTitle);
-
-        input.value = "";
-
-        listButton.addEventListener("click", function() {
-            list.removeChild(chapterTitle);
-        });
+button.onclick = function() {
+    let myItem = input.value;
+    input.value = '';
+  
+    const listItem = document.createElement('li');
+    const listText = document.createElement('span');
+    const listBtn = document.createElement('button');
+  
+    listItem.appendChild(listText);
+    listText.textContent = myItem;
+    listItem.appendChild(listBtn);
+    listBtn.textContent = '💖';
+    list.appendChild(listItem);
+  
+    listBtn.onclick = function(e) {
+      list.removeChild(listItem);
     }
-        input.focus();
-    
-    }   
-    )
+  
+    input.focus();
+  }
+  
