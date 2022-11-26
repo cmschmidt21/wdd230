@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +33,7 @@
         <img
           class="image-top"
           alt="Paradise Island Logo"
-          src="images/paradiseisland2.png"
+          src="images/paradiseisland2.webp"
         >
         <div>
           <h1 class="pi">Paradise Island</h1>
@@ -107,11 +108,11 @@
             src="images/weather.png"
             alt="weather icon"
           >
-          <div>
-            <p>33℃</p>
-            <p class="condition">Partly Cloudy</p>
-            <p class="windspeed">Wind Speed: 2.5 km/h</p>
-            <p class="windchill">Wind Chill: N/A</p>
+            <h2><span id="temp">36</span>&#8457;</h2>
+          </div>
+            <hr>
+            <p>Wind: <span id="wind"></span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
           </div>
         </div>
       </section>
@@ -143,7 +144,7 @@
 
       <section class="spotlight2">
         <h3>Vacation Cafe</h3>
-        <img class="foodphoto" alt="plate of food" src="images/food.png" >
+        <img class="foodphoto" alt="plate of food" src="images/food1.png" >
         <h4><em>The BEST food on the Island!</em></h4>
         <br>
         <hr>
@@ -166,7 +167,7 @@
           <img
             class="image-bottom"
             alt="Paradise Island Logo"
-            src="images/paradiseisland2.png"
+            src="images/paradiseisland2.webp"
           >
           <div class="footer-text">
             <h1 class="pifooter">Paradise Island</h1>
@@ -187,6 +188,7 @@
           >
         </div>
       </div>
+      <hr>
       <div class="base-footer">
         <p>
           &copy; <span id="year"></span> Paradise Island Chamber of Commerce :|:
@@ -199,6 +201,7 @@
 
     <script src="scripts/javascript.js"></script>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/windchill.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> -->
   </body>
 </html>

@@ -157,6 +157,9 @@
 		color: #861657;
 		background-color:#DDFFF7;
 	  }
+	  .foodphoto {
+		width: 30%;
+	  }
 	  .culture{
 		padding: 0px 10px 10px 10px;
 		display: grid;
