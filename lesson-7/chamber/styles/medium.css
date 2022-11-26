@@ -1,0 +1,260 @@
+@media only screen and (min-width: 600px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.grid-container {
+		display:grid !important;
+		grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		grid-column-gap: 15px;
+		margin:auto 2rem;
+	}
+
+	ul {
+		flex-direction:row;
+	}
+
+	ul li {
+		display: block;
+	}
+	.hero {
+		grid-row: 1/2;
+		grid-column: 1/7;
+		justify-items: center;
+	}
+	.imagejoin {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		grid-row: 1/2;
+		}
+		.hero button {
+			background-color:  #93E1D8;
+			color: #861657;
+			padding: 10px;
+			border: none;
+			border-radius: 10px;
+			width: 300px;
+			height: 50px;
+			font-size: 1.5em;
+			font-weight: 700;
+		  }	
+		  .hero a {
+			position: absolute;
+			top: 400px;
+			left: 200px;
+		  }
+	.news {
+		grid-row: 2/2;
+		grid-column: 1/7;
+	}
+	.spotlight1 {
+		grid-row: 3/3;
+		grid-column: 1/4;
+	}
+	.spotlight2 {
+		grid-row: 3/3;
+		grid-column: 4/7;
+	
+	}
+	.spotlight3 {
+		display: none;
+	}
+	.join {
+		display: block;
+		grid-row:4/4;
+		grid-column: 1/7;
+	}
+	.events {
+		grid-row: 5/5;
+		grid-column: 1/5;	
+	}
+	.weather {
+		grid-row: 5/5;
+		grid-column: 5/7;
+	}
+
+	ul li:first-child {
+		display: none;
+	}
+	.main-footer {
+		display: grid;
+		grid-template-columns: 60% 10% 30%;
+
+	}
+	.imagetitle {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.title {
+		display:grid;
+		grid-template-columns: 20% 50% 30%;
+		align-items: center;
+	  }
+	  .image-bottom {
+		width: 50%;
+		margin:0;
+	  }
+	  .image-top {
+		width: 90%;
+		margin: 0;
+	  }
+	.contact {
+		grid-column: 3/4;
+	}
+	.contact p {
+		overflow-wrap: break-word;
+	}
+	.pi {
+		font-size: 2rem;
+		margin-left: 10px;
+	  }
+	  .chamber {
+		font-size: 1.3rem;
+		margin-left: 10px;
+	}
+	.pifooter {
+		font-size: 2em;
+		font-family: impact;
+		margin-left:10px;
+	  }
+	  .chamberfooter {
+		font-size: 1.3em;
+		font-family: impact;
+		margin-left: 10px;
+	  }
+	  .footer-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	  }
+	.hero a {
+		justify-self: end;
+		margin: 30px;
+	}
+	.join button {
+		background-color:  #93E1D8;
+		color: #861657;
+		border-radius: 10px;
+		border: none;
+		width: 700px;
+		height: 50px;
+		font-size: 1.5em;
+		margin: auto;
+	  }
+	  .join a {
+		justify-self: end;
+		margin: 30px;
+	  }
+	  .join p {
+		padding: 10px 10px;
+		margin: auto;
+	  }
+	  a:hover {
+		color: #861657;
+		background-color:#DDFFF7;
+	  }
+	  .culture{
+		padding: 0px 10px 10px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		
+	  }
+	  .cultureimage {
+		width: 100%;
+		grid-column: 1/2;
+		grid-row: 1;
+	  }
+	  .cultureimage:hover {
+		mix-blend-mode: difference;
+	  }
+	  .culture p{
+		grid-column: 2/2;
+		grid-row: 1;
+	  }
+	  .beaches{
+		padding: 0px 10px 10px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		
+	  }
+	  .beachimage {
+		width: 100%;
+		grid-column: 1/2;
+		grid-row: 1;
+	  }
+	  .beachimage:hover {
+		mix-blend-mode: difference;
+	  }
+	  .beaches p{
+		grid-column: 2/2;
+		grid-row: 1;
+	  }
+	  .tours{
+		padding: 0px 10px 10px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		
+	  }
+	  .tourimage {
+		width: 100%;
+		grid-column: 1/2;
+		grid-row: 1;
+	  }
+	  .tourimage:hover {
+		mix-blend-mode: difference;
+	  }
+	  .tours p{
+		grid-column: 2/2;
+		grid-row: 1;
+	  }
+	  .stays{
+		padding: 0px 10px 10px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		
+	  }
+	  .staysimage {
+		width: 100%;
+		grid-column: 1/2;
+		grid-row: 1;
+	  }
+	  .staysimage:hover {
+		mix-blend-mode: difference;
+	  }
+	  .stays p{
+		grid-column: 2/2;
+		grid-row: 1;
+	  }
+	  .dining{
+		padding: 0px 10px 10px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		
+	  }
+	  .diningimage {
+		width: 100%;
+		grid-column: 1/2;
+		grid-row: 1;
+	  }
+	  .diningimage:hover {
+		mix-blend-mode: difference;
+	  }
+	  .dining p{
+		grid-column: 2/2;
+		grid-row: 1;
+	  }
+
+	  
+	  
+
+	
+}
