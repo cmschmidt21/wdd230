@@ -1,0 +1,348 @@
+
+  html {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  header {
+    background-color: #ffa69e;
+    font-family: impact;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  
+  
+  * {
+    font-family: "Ubuntu" sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  
+
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: "Ubuntu";
+}
+
+.navigation li {
+    display: block;
+}
+
+.navigation li:first-child {
+  display: block;
+  
+}
+
+ul {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    width: 70%;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: none;
+    background-color: #93E1D8;  
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: "Ubuntu";
+}
+ul li:nth-child(7){
+  background-color: transparent;
+}
+
+ul li:first-child {
+  display: block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #DDFFF7;
+}
+
+.navigation a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.hero {
+  justify-items: center;
+  
+}
+
+.weatherimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin-top: -10px;
+}
+
+.ham {
+    width: 40px;
+}
+
+
+.navigation a:hover {
+  color: #861657;
+  background-color:#DDFFF7;
+}
+
+.responsive li {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.pi {
+  font-size: 1.4rem;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.chamber {
+  font-size: 0.95rem;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+/* .navigation li .currentpage { */
+    /* background-color: var(--current-page-background);
+    color: var(--current-page-font);
+    transform: none; */
+/* } */
+
+.twitter {
+    display: flex;
+    grid-column: 3;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.navigation .socialnav {
+    padding: 0;
+}
+
+.icons {
+    border-radius: 5px;
+    margin: 0px;
+    width: 3rem;
+}
+.ham {
+  font-size: 2em;
+}
+
+  .date {
+	margin: 1rem 0;
+  color: #861657;
+	padding: 0.75rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+  header h1 {
+    color: #861657;
+    font-size: 30px;
+    margin:0px; 
+    
+  }
+  .title {
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+    align-items: center;
+  }
+  
+
+  main h3 {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  main h4 {
+    text-align: center;
+  }
+
+  main h2 {
+    font-family: "Ubuntu";
+    padding: 10px;
+  }
+
+  
+  section{
+    margin-bottom:15px;
+    color: #AA4465;
+    background-color: #DDFFF7;
+
+  }
+  
+
+  section p {
+    text-align: justify;
+    padding:  0em 1em;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container section {
+		height: 200px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+	}
+  
+  .join {
+    display: none;
+  }
+  .spotlight3 {
+    display: none;
+  }
+
+ 
+  .image-top {
+    grid-row: 1;
+    width: 100%;
+    border-radius: 120px;
+    background-color: #DDFFF7;
+    border: 2px solid  #93E1D8;
+    filter: drop-shadow(0px 10px 10px rgba(0 0 0 / 30%))
+
+  }
+
+  .image-bottom {
+    width: 80%;
+    margin: auto;
+    background-color: #DDFFF7;
+    border-radius: 130px;
+    border: 2px solid #93E1D8;
+    filter: drop-shadow(0px 10px 10px rgba(0 0 0 / 30%))
+
+  }
+  .imagetitle {
+    margin: auto;
+    width: 50%;
+  }
+   
+  
+  body {
+    padding: 2em;
+  }
+  
+  footer {
+    background-color: #ffa69e;
+    display: grid;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .main-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+
+  }
+  footer p {
+    color: black;
+  }
+
+  .address {
+    margin: 1rem;
+    text-align: left;
+  }
+  footer h2 {
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    color: #861657;
+  }
+  
+  footer .lastUpdated {
+    font-size: 0.9em;
+    margin: 10px;
+  }
+  footer h1 {
+    color: #861657;
+    font-size: 1.5rem;
+    margin:0px; 
+    font-family: Impact;
+    
+  }
+  .base-footer {
+    padding: 20px 10px;
+  
+  }
+
+  .weather-content {
+		display: flex;
+		flex-direction: row;
+    align-items: center;
+	  }
+
+  .weatherimage {
+    width: 30%;
+    height: 30%;
+    
+  }
+  .transportphoto {
+    width: 30%;
+    margin: auto;
+  }
+  .spotlight1 {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .foodphoto {
+    width: 30%;
+    margin: auto;
+  }
+  .spotlight2 {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagejoin {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: 1/3;
+	}
+  .hero h2 {
+    background-color: #93E1D8;
+  }
+  .hero button {
+    background-color:  #93E1D8;
+    color: #861657;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    }	
+    .hero a {
+      position: absolute;
+      top: 420px;
+      left: 200px;
+    }
+
+ 
