@@ -121,4 +121,11 @@
 	.diningimage {
 		width: 80%;
 	}
+
+	/* Form styling */
+	
+	form label.member {
+		padding: 0.4rem 0;
+		
+	}
 }

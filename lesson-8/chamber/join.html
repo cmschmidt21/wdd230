@@ -66,11 +66,77 @@
 
       <div class="date"></div>
     </header>
+        <main class ="joinform">
+            <h1 class = "joinh1">Join the Chamber</h1>
+                <form class = "form-content" method = "get" action = "thanks.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class = "user-info">First Name * <input type = "text" name = "fname" required></label>
+                        <label class = "user-info">Last Name * <input type = "text" name = "lname" required></label>
+                        <label class = "user-info">Phone <input type = "tel" name = "phone" placeholder = "1234567890"></label>
+                        <label class = "user-info">Email * <input type = "email" name = "email" placeholder = "someone@gmail.com" required></label>
+                        <label class = "user-info">Website <input type = "url" name = "url" placeholder = "http://"></label>
+                    </fieldset>
 
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class = "business">Business Position/Title <input type="text" name = "bposition" pattern="[A-Za-z0-9\-]{7,}" title="Position must be alpha characters, hyphens, and spaces with a minimum of seven characters"></label>                
+                        <label class = "business">Business Name * <input type = "text" name = "bname" required></label>
+                        <label class = "business">Business Description <input type = "textarea" name = "bdescription"></label>
+                    </fieldset>
 
+                    <fieldset>
+                        <legend>Membership Information</legend>
+                        <div>Membership Levels</div>
+                            <label class = "member"><input type = "radio" name = "membership1" value = "Non-Profit">Non-Profit</label>
+                            <label class = "member"><input type = "radio" name = "membership2" value = "Bronze">Bronze</label>
+                            <label class = "member"><input type = "radio" name = "membership3" value = "Silver">Silver</label>
+                            <label class = "member"><input type = "radio" name = "membership4" value = "Gold">Gold</label>
+                    </fieldset>
 
+                    <input type = "submit" value = "Join the Chamber" class = "submitButton">
 
+                </form>
+                <section class = "memberbenefit">
+                    <div>
+                        <h2>Non-Profit Membership</h2>
+                        <p><strong>Price: </strong>$0</p>
+                        <br>
+                        <p><strong>Benefits: </strong>Monthly email and 
+                        regular mail newsletter updating you on what is happening
+                        on the island.</p>
+                    </div>
 
+                    <div>
+                        <h2>Bronze</h2>
+                        <p><strong>Price: </strong>$20</p>
+                        <br>
+                        <p><strong>Benefits: </strong>Monthly coupons for local
+                        dining, bars, and social establishments plus everything in 
+                        the Non-Profit Membership</p>
+                    </div>
+
+                    <div>
+                        <h2>Silver</h2>
+                        <p><strong>Price: </strong>$40</p>
+                        <br>
+                        <p><strong>Benefits: </strong>Access to business tools, 
+                        online advertising, and a business consultant plus all 
+                        of the benefits in the lower two memberships</p>
+                    </div>
+
+                    <div>
+                        <h2>Gold</h2>
+                        <p><strong>Price: </strong>$80</p>
+                        <br>
+                        <p><strong>Benefits: </strong>Unlimited advertising within
+                        Paradise Island city limits, unlimited online advertising and 
+                        a team of business consultants plus all of the benefits 
+                        in the lower three memberships</p>
+                    </div>
+
+                </section>
+        </main>
 
     <footer>
         <div class="main-footer">

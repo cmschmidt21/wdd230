@@ -444,5 +444,94 @@ ul li a {
       color: white;
       padding: 10px;
     }
-    
+
+    /* Form Styling */
+
+    .joinh2 {
+      color: #861657;
+    }
+    .congrats {
+      color: #861657;
+      padding: 20px 20px;
+      background-color: #DDFFF7;
+      
+    }
+    .thanks-content p {
+      padding: 70px 10px;  
+    }
+
+    form fieldset {
+      margin: 2rem 0;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 10px 2%;
+      background-color: #DDFFF7;
+    }
+    form legend {
+      color: Black;
+      margin: 0 1rem;
+      padding: 0 0.5rem;
+      font-size: 1.5rem;
+    }
+    form label.user-info, form label.business, form div  {
+      display: block;
+      padding-top: 1rem;
+      color: #861657;
+    }
+    form label.user-info input, form label.business input{
+      display: block;
+      font-size: 1rem;
+      border: solid 1px black;
+      border-radius: 5px;
+      padding: 0.75rem 0;
+      color: gray;
+      width: 20rem;
+      background-color: gainsboro;
+
+    }
+    form label.member {
+      display: block;
+      padding: 0.75rem 0;
+      color: gray;
+    }
+    form input.submitButton {
+      border: none;
+      background-color: #93E1D8;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0 2rem 2%;
+      width: 96%;
+      max-width: 20rem;
+    }
+    form label.user-info input:required {
+      border-left: red solid 6px;
+    }
+    form label.user-info input:required:valid {
+      border-left: green solid 6px;
+    }
+    form label.business input:required {
+      border-left: red solid 6px;
+    }
+    form label.business input:required:valid {
+      border-left: green solid 6px;
+    }
+
+    .joinform section {
+      margin: 20px 20px;
+      border: solid 1px #861657;  
+      
+    }
+    .memberbenefit div {
+      margin: 10px 10px;
+      padding: 20px 20px;
+      border: solid 1px #861657;
+      
+    } 
+    .form-content {
+      padding: 10px;
+    }
+
+
+
  
