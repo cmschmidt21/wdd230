@@ -265,13 +265,7 @@ ul li a {
     color: black;
     padding: 0px 30px;
   }
-  .contact {
-    padding: 10px 0px 0px 100px;
-  }
-  footer a {
-    padding: 10px 0px 0px 60px;
-  }
-
+ 
   .address {
     margin: 1rem;
     text-align: left;
@@ -319,7 +313,7 @@ ul li a {
     flex-direction: column;
   }
   .foodphoto {
-    width: 30%;
+    width: 20%;
     margin: auto;
   }
   .spotlight2 {
@@ -344,13 +338,13 @@ ul li a {
     border-radius: 10px;
     width: 210px;
     height: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 700;
     }	
     .hero a {
       position: absolute;
-      top: 420px;
-      left: 200px;
+      top: 450px;
+      left: 150px;
     }
     
     .discovery-grid {
