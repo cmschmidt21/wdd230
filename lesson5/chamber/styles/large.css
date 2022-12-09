@@ -91,7 +91,7 @@
 		display: flex;
 		flex-direction: column;
 	  }
-	  .join button {
+	  .join div {
 		background-color:  #93E1D8;
 		color: #861657;
 		padding: 10px 10px 10px 10px;

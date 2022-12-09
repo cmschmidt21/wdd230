@@ -328,7 +328,7 @@ ul li a {
   .hero h2 {
     background-color: #93E1D8;
   }
-  .hero button {
+  .hero div a{
     background-color:  #93E1D8;
     color: #861657;
     padding: 10px;
