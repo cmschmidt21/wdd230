@@ -81,7 +81,7 @@ ul li a {
     justify-content: center;
 }
 
-.hero button {
+.hero a {
   background-color:  #93E1D8;
   color: #861657;
   cursor: pointer;
