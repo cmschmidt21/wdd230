@@ -71,11 +71,16 @@
       <section class="hero">
         <h2>Welcome to Paradise Island!</h2>
         <a href="#"><button>Join the Chamber!</button></a>
+        <picture>
+          <source srcset = "images/wdd230-org-medium.jpg" media = "(min-width: 600px)">
+          <source srcset = "images/wdd230-org-large.jpg" media = "(min-width: 800px)">
+
         <img
           class="imagejoin"
           alt="Cheerful business meeting"
-          src="images/wdd230-org.jpg"
+          src="images/wdd230-org-small.jpg"
         >
+      </picture>
       </section>
 
       <section class="news">
@@ -110,8 +115,8 @@
             <h2><span id="temp">36</span>&#8457;</h2>
           </div>
             <hr>
-            <p>Wind: <span id="wind"></span> MPH</p>
-            <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
+            <p>Wind: <span id="wind">15</span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span>&#8457;</p>
           </div>
         </div>
       </section>

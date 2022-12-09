@@ -10,7 +10,7 @@
 		
 	}
 	.grid-container section {
-		height: 200px;	
+		height: 215px;	
 
 	}
 
@@ -20,7 +20,7 @@
 	.grid-container section.hero {
 		grid-row: 1/4;
 		grid-column: 2/4;
-		height: 415px;
+		height: 445px;
 		position: relative;
 	}
 	.events {
@@ -47,6 +47,7 @@
 	.spotlight2 {
 		grid-row: 2/4;;
 		grid-column: 4/4;
+		
 	}
 	.spotlight3 {
 		display: block;
@@ -83,7 +84,7 @@
 		left: 0;
 	}
 	.shopphoto {
-		width: 30%;
+		width: 20%;
 		margin: auto;
 	  }
 	  .spotlight3 {

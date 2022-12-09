@@ -24,7 +24,7 @@
 		grid-column: 1/7;
 		justify-items: center;
 	}
-	.imagejoin {
+	picture {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
@@ -158,7 +158,7 @@
 		background-color:#DDFFF7;
 	  }
       .foodphoto {
-		width: 30%;
+		width: 20%;
 	  }
 	  
 

@@ -17,6 +17,12 @@
     box-sizing: border-box;
   }
   
+  picture {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-row: 1/3;
+  }
   
   
 
@@ -204,7 +210,7 @@ ul li a {
   }
 
   .grid-container section {
-		height: 200px;
+		height: 215px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
