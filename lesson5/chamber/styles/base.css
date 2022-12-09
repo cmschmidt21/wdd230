@@ -195,6 +195,7 @@ ul li a {
   section p {
     text-align: justify;
     padding:  0em 1em;
+    
   }
 
 
@@ -204,9 +205,9 @@ ul li a {
   }
 
   .grid-container section {
-		height: 200px;
+		height: 220px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    font-size: .95rem;
 
 	}
   
@@ -311,9 +312,10 @@ ul li a {
     flex-direction: column;
   }
   .foodphoto {
-    width: 30%;
+    width: 20%;
     margin: auto;
   }
+ 
   .spotlight2 {
     padding: 0px 10px 10px 10px;
     display: flex;
@@ -338,6 +340,7 @@ ul li a {
     height: 50px;
     font-size: 1.5em;
     font-weight: 700;
+    text-decoration: none;
     }	
     .hero a {
       position: absolute;
