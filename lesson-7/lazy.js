@@ -3,6 +3,8 @@ let imagesToLoad = document.querySelectorAll('img[data-src]');
 const imageOptions = {
     threshold: 1
 }
+const options = { threshold: 0.5, rootMargin: '0px 0px -100px 0px' };
+
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
@@ -19,7 +21,7 @@ if('IntersectionObserver' in window) {
           imageObserver.unobserve(item.target);
         }
       });
-    }, imageOptions );
+    }, imageOptions, options);
     imagesToLoad.forEach((img) => {
       imageObserver.observe(img);
     });
