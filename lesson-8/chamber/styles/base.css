@@ -458,8 +458,9 @@ ul li a {
       margin: 2rem 0;
       border: 1px solid black;
       border-radius: 10px;
-      padding: 10px 2%;
+      padding: 10px 10px;
       background-color: #DDFFF7;
+      width: 50%;
     }
     form legend {
       color: Black;
@@ -495,8 +496,9 @@ ul li a {
       border-radius: 1rem;
       padding: 0.75rem 1.5rem;
       margin: 0 0 2rem 2%;
-      width: 96%;
+      width: 50%;
       max-width: 20rem;
+      font-size: 0.90rem;
     }
     form label.user-info input:required {
       border-left: red solid 6px;
@@ -512,19 +514,22 @@ ul li a {
     }
 
     .joinform section {
-      margin: 20px 20px;
-      border: solid 1px #861657;  
+      margin: auto 30px;
+      border: solid 1px black;
+      border-radius: 10px;  
       
     }
     .memberbenefit div {
       margin: 10px 10px;
       padding: 20px 20px;
       border: solid 1px #861657;
+    
       
     } 
     .form-content {
       padding: 10px;
     }
+   
 
 
 
