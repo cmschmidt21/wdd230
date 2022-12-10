@@ -1,6 +1,6 @@
 
   html {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
   }
   
   header {
@@ -9,11 +9,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
-  @import url(https://fonts.googleapis.com/css?family=Raleway);
+ 
   
   
   * {
-    font-family: "Ubuntu" sans-serif;
+    font-family: "Ubuntu" , sans-serif;
     box-sizing: border-box;
   }
   
@@ -339,7 +339,7 @@ ul li a {
   .hero h2 {
     background-color: #93E1D8;
   }
-  .hero button {
+  .hero div a{
     background-color:  #93E1D8;
     color: #861657;
     padding: 10px;
@@ -347,13 +347,17 @@ ul li a {
     border-radius: 10px;
     width: 250px;
     height: 50px;
-    font-size: 1.5em;
+    font-size: 1.3rem;
     font-weight: 700;
+    text-decoration: none;
+
     }	
     .hero a {
       position: absolute;
-      top: 420px;
-      left: 100px;
+      top: 500px;
+      left: 150px;
+      text-decoration:none;
+      
     }
     .weather_content {
       display: grid;
@@ -365,3 +369,6 @@ ul li a {
       font-size: 3em;
   }
  
+  .news {
+    font-size: .95rem;
+  }
