@@ -438,11 +438,24 @@ ul li a {
       color: white;
       padding: 10px;
     }
+    .banner {
+      color: #93E1D8;
+      margin: auto;
+      background-color: #DDFFF7;
+      margin-bottom: 10px;
+    }
 
     /*-----Form Styling----*/
 
-    .joinh2 {
+    .joinh1 {
+      margin: auto;
       color: #861657;
+      text-align: center;
+      width: 75%;
+      font-family: "ubuntu", sans-serif;
+      border-radius: 0.5rem;
+      padding: 0px;
+      
     }
     .congrats {
       color: #861657;
@@ -455,7 +468,7 @@ ul li a {
     }
 
     form fieldset {
-      margin: 2rem 0;
+      margin: auto;
       border: 1px solid black;
       border-radius: 10px;
       padding: 10px 10px;
@@ -490,13 +503,16 @@ ul li a {
       color: gray;
     }
     form input.submitButton {
+      display: block;
+      margin: auto;
       border: none;
       background-color: #93E1D8;
+      border: 1px solid black;
       color: white;
-      border-radius: 1rem;
+      border-radius: 0.5rem;
+      margin-top: 20px;
       padding: 0.75rem 1.5rem;
-      margin: 0 0 2rem 2%;
-      width: 50%;
+      width: 60%;
       max-width: 20rem;
       font-size: 0.90rem;
     }
@@ -526,10 +542,18 @@ ul li a {
     
       
     } 
+    
     .form-content {
       padding: 10px;
     }
+
+    nav li.activej{
+    background: #ffa69e;
+    color:#861657;
+    border: 1px solid #DDFFF7;
+    }
    
+    /* directory page styling */
 
 
 
