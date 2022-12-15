@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bountiful Foods Project for WDD230
+                at Brigham Young University - Idaho for Caitlyn Schmidt."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bountiful Foods Homepage: Caitlyn Schmidt</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+
+  <body>
+    <header <li>
+      <div class="socialnav">
+        <a class="socialnav" href="https://facebook.com" target="_blank"
+          ><img class="icons" src="images/facebook.png" alt="fb icon"
+        /></a>
+
+        <a class="socialnav" href="https://twitter.com" target="_blank"
+          ><img class="icons" src="images/twitter.png" alt="twitter icon"
+        /></a>
+        <a class="socialnav" href="https://instagram.com" target="_blank">
+          <img class="icons" src="images/instagram.png" alt="instagram icon"
+        /></a>
+      </div>
+
+      <img
+        class="image-top"
+        alt="Bountiful Foods Logo"
+        src="/images/logo-transparent.png"
+      >
+
+    
+
+      <nav>
+        <ul class="mobile-nav">
+          <li>
+            <a class="ham" href="#"> ☰ </a>
+          </li>
+          <li><a class="currentpage" href="index.html">Home</a></li>
+          <li><a href="#">Fresh</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Testimonies</a></li>
+        </ul>
+      </nav>
+
+      <div class="date"></div>
+    </header>
+    <main class = "grid-container">
+      <div class = "contact-card">
+        <h3>Contact Us</h3>
+        <hr>
+        <p>Have Questions? Send us a message HERE 📄</p>
+        <p>OR</p>
+        <p>info@bountifulfoods.com</p>
+        <p>208-569-9546</p>
+      </div>
+      
+      <div class = "weather-card">
+        <h3>The Weather Today is...</h3>
+        <hr>
+        <section class="weather-content">
+          <img
+            id="weather-icon"
+            src=""
+            alt=""
+          >
+          <h3> <span id="temperature"></span>&#176;F</h3>
+          <h3 id="condition"></h3>
+          <span>Wind speed: <span id="wind-speed"></span>mph<br>Wind Chill:<span id="result"></span>&#176;F<br>Humidity: <span id="humidity"></span>&#176;F</span>
+
+        <h3>The 3 Day Forcast is...</h3>
+        <hr>
+      </div>
+
+      <div class="drink-count">
+        <h2>My Specials</h2>
+        <hr>
+        <br>
+        <p>You have created <span class="total"></span> special drinks</p>
+      </div>
+
+      <div class="specialty-card">
+        <h3>Make Your Drink Today!</h3>
+        <hr>
+        <br><br>
+        <a href = "#">Click Here to Order</a>
+      </div>
+      <section class = "spotlightimages">
+      <section class="spotlight1">
+        <img class = "slimage" src="images/veggiesheart.png" alt="veggies in shape of a heart">
+      </section>
+      <section class="spotlight2">
+        <img class = "slimage2" src="images/fruitheart.png" alt="fruit in shape of a heart">
+      </section>
+    </section>
+      
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="imagetitle">
+          <img
+            class="image-bottom"
+            alt="Bountiful Foods logo"
+            src="/images/logo-transparent.png"
+          />
+
+          <div class="footer-text">
+            <h1>Bountiful Foods</h1>
+            <h2 class="address">
+              123 Beachside Ave.
+              Carlsbad, Ca 56678
+            </h2>
+          </div>
+        </div>
+        <div class="contact">
+          <p>info@bountifulfoods.com</p>
+          <p>208-569-9546</p>
+          <a
+            href="https://www.google.com/maps/place/Paradise+Island/@25.0833476,-77.3213427,14z/data=!3m1!4b1!4m5!3m4!1s0x892f7db93cb9b50b:0x4f27a6bcae38f950!8m2!3d25.0821287!4d-77.3134431"
+            >📍Location</a>
+        </div>
+      </div>
+      <hr />
+      <div class="base-footer">
+        <p>
+          &copy; <span id="year"></span> Bountiful Foods | Caitlyn Schmidt | WDD
+          Final Project |<span class="lastUpdated">Last Updated:</span
+          ><span id="lastModified"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/drinkcount.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>

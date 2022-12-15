@@ -1,0 +1,48 @@
+@media only screen and (min-width: 600px) {
+
+ul {
+    flex-direction: row;
+  }
+
+  ul li {
+    display: block;
+  }
+  .ham {
+    display: none;
+  }
+  .navigation a:hover {
+    color: #ECA400;
+    background-color:#DDFFF7;
+  }
+  
+  .responsive li {
+      display: block;
+      min-width: 100%;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .socialnav {
+    padding: 10px;
+  }
+  .socialnav img {
+    width: 4%;
+  }
+ .image-top {
+    width: 30%;
+    padding: 10px;
+    margin: 0;
+ }
+
+ /* footer styling */
+ .main-footer {
+  display: grid;
+  grid-template-columns: 60% 10% 30%;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+}
